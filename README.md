@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require "amilna/yii2-sequence-widget" "*"
+php composer.phar require "amilna/yii2-sequence-widget" "dev-master"
 ```
 
 or add
 
 ```json
-"amilna/yii2-sequence-widget" : "*"
+"amilna/yii2-sequence-widget" : "dev-master"
 ```
 to the require section of your application's `composer.json` file.
 
