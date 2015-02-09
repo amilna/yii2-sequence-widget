@@ -17,8 +17,20 @@ or add
 ```json
 "amilna/yii2-sequence-widget" : "*"
 ```
-
 to the require section of your application's `composer.json` file.
+
+Since this extensions stil in dev stages, be sure also add following line in `composer.json` file.
+
+```json
+"repositories":[
+		{
+			"type": "git",
+			"url": "https://github.com/amilna/yii2-sequence-widget"
+		}	
+   ]
+``
+
+
 
 Usage
 -----
@@ -35,7 +47,7 @@ echo SequenceJs::widget([
 		'backgroundKey'=>'image', //model attribute to be used as background
 		'theme' => 'parallax', //available themes: default, parallax, modern
  
- 	'css' => 'test.css', // url of css to overide default css relative from @web	
+ 		'css' => 'test.css', // url of css to overide default css relative from @web	
   
 		// example to overide default themes
 		'itemView'=>function ($model, $key, $widget) {					
