@@ -15,7 +15,7 @@ php composer.phar require "amilna/yii2-sequence-widget" "*"
 or add
 
 ```json
-"himiklab/yii2-sequence-widget" : "*"
+"amilna/yii2-sequence-widget" : "*"
 ```
 
 to the require section of your application's `composer.json` file.
