@@ -1,0 +1,25 @@
+{
+    "name": "amilna/yii2-sequence-widget",
+    "description": "Sequencejs widget for Yii2",
+    "keywords": ["yii2", "sequence", "widget", "banner"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/amilna/yii2-sequence-widget",
+        "issues": "https://github.com/amilna/yii2-sequence-widget/issues"
+    },
+    "authors": [
+        {
+            "name": "Amilna",
+            "homepage": "https://github.com/amilna/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",       
+    },
+    "autoload": {
+        "psr-4": {
+            "amilna\\sequencejs\\": ""
+        }
+    },
+}
