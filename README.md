@@ -9,27 +9,17 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require "amilna/yii2-sequence-widget" "dev-master"
+php composer.phar require "amilna/yii2-sequence-widget" "*"
 ```
 
 or add
 
 ```json
-"amilna/yii2-sequence-widget" : "dev-master"
+"amilna/yii2-sequence-widget" : "*"
 ```
 to the require section of your application's `composer.json` file.
 
 Since this extensions stil in dev stages, be sure also add following line in `composer.json` file.
-
-```json
-"repositories":[
-		{
-			"type": "git",
-			"url": "https://github.com/amilna/yii2-sequence-widget"
-		}	
-   ]
-```
-
 
 
 Usage
